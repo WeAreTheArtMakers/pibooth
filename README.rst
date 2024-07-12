@@ -25,6 +25,35 @@
 * Tüm ayarlar bir yapılandırma dosyasında mevcuttur (en yaygın seçenekler grafik bir arayüzde)
 * Eklenti sistemi sayesinde yüksek düzeyde özelleştirilebilir, topluluk tarafından geliştirilen eklentileri PyPI'dan yükleyebilir veya kendi eklentinizi geliştirebilirsiniz.
 
+Donanım
+----------
+
+1. **DM PD170 Metal USB 3.1 Flash Bellek 64 GB**
+   - Yüksek hızda veri transferi ve depolama için kullanılacak.
+
+2. **Raspberry Pi 5 8GB**
+   - Proje için ana kontrol ve işlem birimi olarak kullanılacak.
+
+3. **SanDisk 32GB Extreme Pro MicroSDHC Hafıza Kartı**
+   - Raspberry Pi için yüksek hızlı hafıza kartı. 100 MB/sn'ye kadar okuma hızı.
+
+4. **Resmi Raspberry Pi 5 USB-C güç kaynağı 27 W, USB-C güç kaynağı, beyaz**
+   - Raspberry Pi'yi güvenilir ve stabil bir şekilde beslemek için kullanılacak.
+
+5. **3 Model B+ Dokunmatik Ekran LCD Ekran için 5 İnç Monitör Dokunmatik Ekran Kılıfı Standı Tutucu - Siyah**
+   - Bu kılıf standı tutucu, 5 inç dokunmatik ekranı desteklemek ve kolay kullanım sağlamak için tasarlanmıştır.
+
+6. **Raspberry Pi Aktif Soğutucu**
+   - Raspberry Pi'nin aşırı ısınmasını önlemek ve performansını artırmak için kullanılacak aktif soğutma çözümü.
+
+7. **waveshare 5 inç TFT LCD Ekran B 800x480 Raspberry Pi Dirençli Dokunmatik Ekran HDMI Monitör**
+   - Bu ekran, 800x480 çözünürlük sunar ve Raspberry Pi ile uyumlu dirençli dokunmatik özelliklere sahiptir. BB Siyah, Raspbian, Ubuntu, Kali, Retropie, Win10 IOT/Win10/8.1/8/7 işletim sistemlerini destekler.
+
+8. **Raspberry Pi Kamera Modülü V2 - (Raspberry Pi)**
+   - Yüksek kaliteli fotoğraf ve video kaydı yapabilen bu kamera modülü, Raspberry Pi projelerinizde görüntü işleme ve güvenlik sistemleri için idealdir.
+
+
+
 Belgeler
 --------
 
