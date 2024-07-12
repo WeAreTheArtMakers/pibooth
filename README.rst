@@ -79,6 +79,9 @@ An enormous thanks to our sponsors:
 - `@mozdi <https://github.com/mozdi>`_
 - `@MikkeBoomBoom <https://github.com/MikkeBoomBoom>`_
 - `@fatgeek <https://github.com/fatgeek>`_
+- `@STREETMONEYBSC <https://github.com/streetmoneybsc>`_
+- `@STUDIOBRN <https://github.com/studiobrn>`_
+- `@WATAM <https://github.com/wearetheartmakers>`_
 
 It means a lot to us!
 
