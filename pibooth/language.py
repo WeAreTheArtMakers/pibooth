@@ -206,7 +206,23 @@ DEFAULT = {
         'print_forget': "Glöm\den här\bilden",
         'finished': "Tack",
         'oops': "Oops, nånting blev fel",
-    },    
+    },
+     'tr': {
+        'intro': "Fotoğraf çek",
+        'intro_print': "Veya bu\nfotoğrafı hala\nçıkartabilirsin",
+        'choose': "Yerleşim biçimini seç",
+        '1': "1 fotoğraf",
+        '2': "2 fotoğraf",
+        '3': "3 fotoğraf",
+        '4': "4 fotoğraf",
+        'chosen': "Hadi başlayalım!",
+        'smile': "Gülümseyin!",
+        'processing': "İşleniyor...",
+        'print': "Fotoğrafı yazdır?",
+        'print_forget': "Lütfen bu\nfotoğrafı\nunut",
+        'finished': "Teşekkürler",
+        'oops': "Hata! Bir şeyler yanlış gitti.",
+    },
 }
 
 
