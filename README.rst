@@ -11,7 +11,7 @@
 Özellikler
 ----------
 
-* Arayüz Danca, Felemenkçe, İngilizce, Fransızca, Almanca, Macarca, Norveççe, Portekizce (Portekiz ve Brezilya), İspanyolca ve İsveççe dillerinde mevcuttur (özelleştirilebilir)
+* Arayüz Danca, Felemenkçe, İngilizce, Fransızca, Almanca, Macarca, Norveççe, Türkçe, Portekizce (Portekiz ve Brezilya), İspanyolca ve İsveççe dillerinde mevcuttur (özelleştirilebilir)
 * 1'den 4'e kadar fotoğraf çekebilir ve bunları son bir resimde birleştirebilir
 * gPhoto2, OpenCV ve Raspberry Pi ile uyumlu tüm kameraları destekler
 * Raspberry Pi GPIO üzerindeki donanım düğmeleri ve lambaları destekler
