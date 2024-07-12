@@ -2,50 +2,45 @@
 
 |PythonVersions| |PypiPackage| |Downloads| |Tests| |Codecov|
 
-The ``pibooth`` project provides a photobooth application *out-of-the-box* in pure Python
-for Raspberry Pi. Have a look to the `wiki <https://github.com/pibooth/pibooth/wiki>`_
-to discover some realizations from GitHub users, and don't hesitate to send us
-photos of your version.
+``pibooth`` projesi, Raspberry Pi için saf Python'da kutudan çıktığı gibi kullanılabilen bir fotokabin uygulaması sağlar. GitHub kullanıcılarının bazı gerçekleştirmelerini keşfetmek için `wiki <https://github.com/pibooth/pibooth/wiki>`_ sayfasına göz atın ve kendi versiyonunuzun fotoğraflarını bize göndermekten çekinmeyin.
 
 .. image:: https://raw.githubusercontent.com/pibooth/pibooth/master/docs/images/background_samples.png
    :align: center
-   :alt: Settings
+   :alt: Ayarlar
 
-Features
+Özellikler
+----------
+
+* Arayüz Danca, Felemenkçe, İngilizce, Fransızca, Almanca, Macarca, Norveççe, Portekizce (Portekiz ve Brezilya), İspanyolca ve İsveççe dillerinde mevcuttur (özelleştirilebilir)
+* 1'den 4'e kadar fotoğraf çekebilir ve bunları son bir resimde birleştirebilir
+* gPhoto2, OpenCV ve Raspberry Pi ile uyumlu tüm kameraları destekler
+* Raspberry Pi GPIO üzerindeki donanım düğmeleri ve lambaları destekler
+* Tamamen donanım düğmeleri / klavye / fare / dokunmatik ekran ile kontrol edilir
+* Raspberry Pi başlangıcında otomatik başlatma
+* Boşta kalma sırasında son sıradan çekilen fotoğrafları animasyon olarak gösterme
+* Son fotoğrafları ve bireysel çekimleri depolama
+* CUPS sunucusu kullanarak son fotoğrafları yazdırma (yazdırma kuyruğu göstergesi)
+* Son fotoğrafın üzerine özelleştirilebilir yazılar ekleyebilme (özelleştirilebilir yazı tipleri, renkler, hizalamalar)
+* Son fotoğrafın üzerine özelleştirilebilir arka plan(lar) ve kaplama(lar) ekleyebilme
+* Tüm ayarlar bir yapılandırma dosyasında mevcuttur (en yaygın seçenekler grafik bir arayüzde)
+* Eklenti sistemi sayesinde yüksek düzeyde özelleştirilebilir, topluluk tarafından geliştirilen eklentileri PyPI'dan yükleyebilir veya kendi eklentinizi geliştirebilirsiniz.
+
+Belgeler
 --------
-
-* Interface available in Danish, Dutch, English, French, German, Hungarian, Norwegian, Portuguese (Portugal and Brazil), Spanish and Swedish (customizable)
-* Capture from 1 to 4 photos and concatenate them in a final picture
-* Support all cameras compatible with gPhoto2, OpenCV and Raspberry Pi
-* Support for hardware buttons and lamps on Raspberry Pi GPIO
-* Fully driven from hardware buttons / keyboard / mouse / touchscreen
-* Auto-start at the Raspberry Pi startup
-* Animate captures from the last sequence during idle time
-* Store final pictures and the individual captures
-* Printing final pictures using CUPS server (printing queue indication)
-* Custom texts can be added on the final picture (customizable fonts, colors, alignments)
-* Custom background(s) and overlay(s) can be added on the final picture
-* All settings available in a configuration file (most common options in a graphical interface)
-* Highly customizable thanks to its plugin system, you can install
-  `plugins developed by the community from PyPI  <https://pypi.org/search/?q=pibooth>`_
-  or develop your own plugin.
-
-Documentation
--------------
 
 .. image:: https://raw.githubusercontent.com/pibooth/pibooth/master/docs/images/documentation.png
    :align: center
-   :alt: Documentation
+   :alt: Belgeler
    :target: https://pibooth.readthedocs.io/en/stable
    :height: 200px
 
-Plugins
--------
+Eklentiler
+----------
 
-Here is a list of known plugins compatible with Pibooth
+Pibooth ile uyumlu bilinen eklentilerin listesi
 
-Pibooth organisation's plugin
-=============================
+Pibooth organizasyonunun eklentileri
+====================================
 
 - `pibooth-picture-template <https://github.com/pibooth/pibooth-picture-template>`_
 - `pibooth-google-photo <https://github.com/pibooth/pibooth-google-photo>`_
@@ -54,11 +49,11 @@ Pibooth organisation's plugin
 - `pibooth-qrcode <https://github.com/pibooth/pibooth-qrcode>`_
 - `pibooth-extra-lights <https://github.com/pibooth/pibooth-extra-lights>`_
 
-Third-party plugins
-===================
+Üçüncü taraf eklentiler
+=======================
 
-Third-party plugins can be found on GitHub or on `plugins on PyPI  <https://pypi.org/search/?q=pibooth>`_.
-Here is a short list:
+Üçüncü taraf eklentiler GitHub'da veya `PyPI'da <https://pypi.org/search/?q=pibooth>`_ bulunabilir.
+İşte kısa bir liste:
 
 - `pibooth-lcd-display <https://pypi.org/project/pibooth-lcd-display>`_
 - `pibooth-oled-display <https://pypi.org/project/pibooth-oled-display>`_
@@ -66,16 +61,16 @@ Here is a short list:
 - `pibooth-telegram-upload <https://pypi.org/project/pibooth-telegram-upload>`_
 - `pibooth-s3-upload <https://pypi.org/project/pibooth-s3-upload>`_
 
-Sponsors
---------
+Sponsorlar
+----------
 
-An enormous thanks to our sponsors:
+Sponsorlarımıza büyük teşekkürler:
 
 - `@andhey <https://github.com/andhey>`_
 - `@vo55 <https://github.com/vo55>`_
 - `@laurammiller <https://github.com/laurammiller>`_
 - `@neilrenfrey <https://github.com/neilrenfrey>`_
-- `@agrovista <https://github.com/agrovista>`_ 
+- `@agrovista <https://github.com/agrovista>`_
 - `@mozdi <https://github.com/mozdi>`_
 - `@MikkeBoomBoom <https://github.com/MikkeBoomBoom>`_
 - `@fatgeek <https://github.com/fatgeek>`_
@@ -83,7 +78,7 @@ An enormous thanks to our sponsors:
 - `@STUDIOBRN <https://github.com/studiobrn>`_
 - `@WATAM <https://github.com/wearetheartmakers>`_
 
-It means a lot to us!
+Bu bizim için çok şey ifade ediyor!
 
 .. |Pibooth| image:: https://raw.githubusercontent.com/pibooth/pibooth/master/docs/pibooth.png
    :align: middle
