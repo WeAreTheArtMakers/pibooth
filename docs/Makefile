@@ -1,20 +1,19 @@
-# Minimal makefile for Sphinx documentation
+# Sphinx belgeleri için minimal Makefile
 #
 
-# You can set these variables from the command line, and also
-# from the environment for the first two.
+# Bu değişkenleri komut satırından ve aşağıdaki ilk iki değişken için ortamdan ayarlayabilirsiniz.
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = .
 BUILDDIR      = build
 
-# Put it first so that "make" without argument is like "make help".
+# İlk sırada yer alacak şekilde ayarlayın ki, argümansız "make" komutu "make help" gibi davransın.
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 .PHONY: help Makefile
 
-# Catch-all target: route all unknown targets to Sphinx using the new
-# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
+# Her hedefi yakala: Bilinmeyen tüm hedefleri Sphinx'in yeni "make modu" seçeneği kullanarak yönlendirir.
+# $(O), $(SPHINXOPTS) için bir kısayoldur.
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) -E -j auto -T -v $(O)
