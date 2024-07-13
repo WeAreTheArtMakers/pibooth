@@ -1,16 +1,13 @@
-Default configuration
----------------------
+Varsayılan Yapılandırma
+-----------------------
 
-**Relative paths:**
+**Göreceli Yollar:**
 
-Relative path (path which doesn't start by a ``/``) can be used. In this
-case, the path is considered starting from the configuration file location.
+Göreceli yol (``/`` ile başlamayan yol) kullanılabilir. Bu durumda, yol yapılandırma dosyasının bulunduğu konumdan başlamak üzere değerlendirilir.
 
-**List of elements:**
+**Öğeler Listesi:**
 
-Option with mention ``list of quoted ...`` indicated means that a list of 2 or
-more elements can be provided. A list starts and finishes with parenthesis
-``(...)``. Each element is separated by a comma ``,``.
+``list of quoted ...`` ifadesiyle belirtilen seçenek, iki veya daha fazla öğeden oluşan bir listenin sağlanabileceğini gösterir. Bir liste parantez ile başlar ve biter ``(...)``. Her bir öğe virgül ``,`` ile ayrılır.
 
 :download:`pibooth.cfg<default.cfg>`
 
