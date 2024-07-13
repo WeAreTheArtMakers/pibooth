@@ -113,7 +113,7 @@ Kurulum
 
 **Adım 5: Yapılandırma**
 
--pibooth’u kendi ihtiyaçlarınıza göre yapılandırmak için, ~/.config/pibooth/pibooth.cfg dosyasını düzenleyin. Bu dosya, pibooth’un davranışını ve özelliklerini kontrol etmenizi sağlar
+-pibooth’u kendi ihtiyaçlarınıza göre yapılandırmak için, ~/.config/pibooth/pibooth.cfg dosyasını düzenleyin. Bu dosya, pibooth’un davranışını ve özelliklerini kontrol etmenizi sağlar, düzenlenmiş pibooth.cfg dosyasını ve translation.cfg dosyasını ~/.config/pibooth içine sürükleyip bırakın.
 
 Belgeler
 --------
