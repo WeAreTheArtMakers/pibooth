@@ -52,7 +52,68 @@ Donanım
 8. **Raspberry Pi Kamera Modülü V2 - (Raspberry Pi)**
    - Yüksek kaliteli fotoğraf ve video kaydı yapabilen bu kamera modülü, Raspberry Pi projelerinizde görüntü işleme ve güvenlik sistemleri için idealdir.
 
+Kurulum 
+---------
 
+**pibooth, çeşitli cihazlarda ve işletim sistemlerinde çalışacak şekilde tasarlanmıştır. Aşağıdaki talimatlar, pibooth’u nasıl kuracağınızı açıklar.**
+
+**Gereksinimler**
+
+	•	-Python 3.7 veya üstü
+	•	-pip (Python paket yöneticisi)
+	•	-Bir Raspberry Pi
+
+**Adım 1: Python ve pip Yükleme**
+
+-Python ve pip’i henüz yüklemediyseniz, aşağıdaki adımları izleyerek yükleyin.
+
+-Ubuntu/Debian
+
+-sudo apt update
+-sudo apt install python3 python3-pip
+
+**macOS**
+
+-macOS için, Homebrew kullanarak Python ve pip’i yükleyebilirsiniz.
+
+-brew install python
+
+**Windows**
+
+-Windows için, Python.org adresinden Python yükleyicisini indirin ve yükleme sırasında “pip” seçeneğini işaretlediğinizden emin olun.
+
+**Adım 2: pibooth’u Yükleme**
+
+-pip kullanarak pibooth’u kolayca yükleyebilirsiniz.
+
+-pip install pibooth
+
+**Adım 3: Raspberry Pi Kurulum**
+
+-Eğer pibooth’u bir Raspberry Pi üzerinde çalıştırmak istiyorsanız, aşağıdaki ek adımları izleyin.
+
+**Raspberry Pi Kamera Modülü Kurulumu**
+
+-Raspberry Pi üzerinde kamera modülünü etkinleştirmek için raspi-config aracını kullanın.
+
+-sudo raspi-config
+
+-Ardından “Interfacing Options” -> “Camera” seçeneğini seçin ve etkinleştirin. -Raspberry Pi’nizi yeniden başlatmanız gerekecek.
+
+**Ek Python Kütüphanelerini Yükleme**
+
+-sudo apt update
+-sudo apt install python3-picamera
+
+**Adım 4: pibooth’u Çalıştırma**
+
+-Kurulum tamamlandıktan sonra, pibooth’u aşağıdaki komutla başlatabilirsiniz.
+
+-pibooth
+
+**Adım 5: Yapılandırma**
+
+-pibooth’u kendi ihtiyaçlarınıza göre yapılandırmak için, ~/.config/pibooth/pibooth.cfg dosyasını düzenleyin. Bu dosya, pibooth’un davranışını ve özelliklerini kontrol etmenizi sağlar
 
 Belgeler
 --------
