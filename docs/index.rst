@@ -1,42 +1,37 @@
-
-Welcome to Pibooth's documentation!
-===================================
+Pibooth Dokümantasyonuna Hoş Geldiniz!
+======================================
 
 |Pibooth|
 
 |PythonVersions| |PypiPackage| |Downloads|
 
-The ``pibooth`` project provides a photobooth application *out-of-the-box* in
-pure Python for Raspberry Pi. Have a look to the `wiki <https://github.com/pibooth/pibooth/wiki>`_
-to discover some realizations from GitHub users, and don't hesitate to send us
-photos of your version.
+``pibooth`` projesi, Raspberry Pi için saf Python ile *anahtar teslim* bir fotoğraf kabini uygulaması sağlar. GitHub kullanıcılarının gerçekleştirmelerini keşfetmek için `wiki <https://github.com/pibooth/pibooth/wiki>`_ sayfamıza göz atın ve kendi versiyonunuzun fotoğraflarını göndermekten çekinmeyin.
 
 .. image:: images/background_samples.png
    :align: center
-   :alt: Background samples
+   :alt: Arka Plan Örnekleri
 
-.. note:: Even if designed for a Raspberry Pi, this software may be installed on
-          any Unix/Linux based OS (tested on Ubuntu 16 and Mac OSX 10.14.6).
+.. note:: Bu yazılım Raspberry Pi için tasarlanmış olsa da, herhangi bir Unix/Linux tabanlı işletim sisteminde kurulabilir (Ubuntu 16 ve Mac OSX 10.14.6'da test edilmiştir).
 
 .. image:: images/gallery.png
    :align: center
-   :alt: Gallery
+   :alt: Galeri
    :target: sources/examples.html
 
 .. toctree::
-   :caption: About
+   :caption: Hakkında
    :maxdepth: 2
 
    sources/about.rst
 
 .. toctree::
-   :caption: Install
+   :caption: Kurulum
    :maxdepth: 2
 
    sources/install.rst
 
 .. toctree::
-   :caption: Start
+   :caption: Başlangıç
    :maxdepth: 2
 
    sources/start.rst
@@ -44,13 +39,13 @@ photos of your version.
    sources/tutorials/dslr_tips.rst
 
 .. toctree::
-   :caption: Scripts and tools
+   :caption: Komut Dosyaları ve Araçlar
    :maxdepth: 2
 
    sources/scripts.rst
 
 .. toctree::
-   :caption: Plugins
+   :caption: Eklentiler
    :maxdepth: 2
 
    sources/plugins/plugins.rst
@@ -58,15 +53,15 @@ photos of your version.
    sources/plugins/examples.rst
 
 .. toctree::
-   :caption: Developers
+   :caption: Geliştiriciler
    :hidden:
 
    sources/dev/install.rst
    sources/dev/rules.rst
    sources/dev/release.rst
 
-Indices and tables
-==================
+İndeksler ve Tablolar
+=====================
 
 * :ref:`genindex`
 * :ref:`modindex`
@@ -82,8 +77,8 @@ Indices and tables
 
 .. |PypiPackage| image:: https://badge.fury.io/py/pibooth.svg
    :target: https://pypi.org/project/pibooth
-   :alt: PyPi package
+   :alt: PyPi paketi
 
 .. |Downloads| image:: https://img.shields.io/pypi/dm/pibooth?color=purple
    :target: https://pypi.org/project/pibooth
-   :alt: PyPi downloads
+   :alt: PyPi indirme sayısı
