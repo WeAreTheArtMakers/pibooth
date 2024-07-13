@@ -1,4 +1,4 @@
-|Pibooth|
+.. image:: https://wearetheartmakers.com/us/images/2024/07/13/piboothtr.png
 
 |PythonVersions| |PypiPackage| |Downloads| |Tests| |Codecov|
 
