@@ -1,35 +1,34 @@
-# Configuration file for the Sphinx documentation builder.
+# Sphinx belgeleme yapılandırıcı dosyası.
 #
-# This file only contains a selection of the most common options. For a full
-# list see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
+# Bu dosya, en yaygın seçeneklerin bir seçimini içerir. Tam listesi için dokümantasyona bakın:
+# https://www.sphinx-doc.org/tr/master/usage/configuration.html
 
-# -- Path setup --------------------------------------------------------------
+# -- Yol ayarları --------------------------------------------------------------
 
-# If extensions (or modules to document with autodoc) are in another directory,
-# add these directories to sys.path here. If the directory is relative to the
-# documentation root, use os.path.abspath to make it absolute, like shown here.
+# Eğer eklentiler (veya autodoc ile belgelenecek modüller) başka bir dizindeyse,
+# bu dizinleri burada sys.path'e ekleyin. Eğer dizin belgeleme köküne göre ise,
+# os.path.abspath kullanarak mutlak yapın, burada gösterildiği gibi.
 
 import sys
 import os.path as osp
 
 sys.path.insert(0, osp.dirname(osp.dirname(osp.abspath(__file__))))
-import pibooth
+import watam
 
-# -- Project information -----------------------------------------------------
+# -- Proje bilgileri -----------------------------------------------------------
 
-project = 'Pibooth'
-copyright = '2024, Vincent Verdeil, Antoine Rousseaux'
-author = 'Vincent Verdeil, Antoine Rousseaux'
+project = 'Watam ve WeAreTheArtMakers'
+copyright = '2024, Watam ve WeAreTheArtMakers'
+author = 'Watam ve WeAreTheArtMakers Ekibi'
 
-# The full version, including alpha/beta/rc tags
-release = pibooth.__version__
+# Tam sürüm, alpha/beta/rc etiketleri dahil
+release = watam.__version__
 
-# -- General configuration ---------------------------------------------------
+# -- Genel yapılandırma -------------------------------------------------------
 
-# Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-# ones.
+# Burada, dizeler olarak Sphinx eklenti modül adlarını ekleyin.
+# Bunlar Sphinx ile gelen (adında 'sphinx.ext.*' olan) veya sizin özel
+# eklentileriniz olabilir.
 extensions = [
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.viewcode',
@@ -37,58 +36,56 @@ extensions = [
     'sphinx_copybutton'
 ]
 
-# Add any paths that contain templates here, relative to this directory.
+# Burada belirtilen dizinler içindeki şablonları içeren yolları ekleyin, bu dizine göreli.
 templates_path = ['_templates']
 
-# List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
-# This pattern also affects html_static_path and html_extra_path.
+# Kaynak dosyaları ararken dikkate alınacak, kaynak dizinine göreli dosya ve dizinleri
+# eşleştiren kalıpların listesi.
+# Bu kalıp aynı zamanda html_static_path ve html_extra_path'i de etkiler.
 exclude_patterns = []
 
-# -- Options for HTML output -------------------------------------------------
+# -- HTML çıktısı için seçenekler -------------------------------------------------
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
+# HTML ve HTML Yardım sayfaları için kullanılacak tema. Dokümantasyonda
+# yerleşik temaların bir listesi için bakın.
 #
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'logo_only': True,
 }
 
-# This value selects if automatically documented members are sorted alphabetical
-# (value 'alphabetical'), by member type (value 'groupwise') or by source order
-# (value 'bysource'). The default is alphabetical.
+# Otomatik olarak belgelenmiş üyelerin sıralaması 'alfabetik' (değer 'alphabetical'),
+# üye türüne göre ('groupwise') veya kaynak sırasına göre ('bysource') olabilir.
+# Varsayılan değer alfabetiktir.
 autodoc_member_order = 'bysource'
 
 add_module_names = False
 
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
+# Özel statik dosyaları (örneğin stil sayfaları) burada belirtilen yollara ekleyin,
+# bu dizine göreli. Bu dosyalar yerleşik statik dosyaların ardından kopyalanır,
+# bu nedenle "default.css" adında bir dosya yerleşik "default.css" dosyasının üzerine yazar.
 html_static_path = ['_static']
 
-# The name of an image file (relative to this directory) to place at the top
-# of the sidebar.
-# NOTE: can not put it in the _static folder, else it will not be displayed
-# on Read The Doc (seems to be a bug..??)
+# Yan çubuğun üst kısmına yerleştirilecek bir resim dosyasının adı (bu dizine göreli).
+# NOT: _static klasörüne konulmamalıdır, aksi takdirde Read The Docs'ta görüntülenmez
+# (bir hata gibi görünüyor..??)
 html_logo = 'pibooth.png'
 
-# The name of an image file (within the static path) to use as favicon of the
-# docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
-# pixels large.
+# Dokümanların favicon'u olarak kullanılacak resim dosyasının adı (statik yolda).
+# Bu dosya, bir Windows simge dosyası (.ico) olmalı ve 16x16 veya 32x32 piksel boyutunda olmalıdır.
 html_favicon = '_static/favicon.ico'
 
-# If false, no index is generated.
+# Eğer False ise, bir indeks oluşturulmaz.
 html_use_index = True
 
-# If true, the index is split into individual pages for each letter.
+# Eğer True ise, indeks her harf için ayrı sayfalara bölünür.
 html_split_index = False
 
-# If true, links to the reST sources are added to the pages.
+# Eğer True ise, sayfalara reST kaynaklarına bağlantılar eklenir.
 html_show_sourcelink = False
 
-# If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
+# Eğer True ise, HTML altbilgisinde "Sphinx kullanılarak oluşturuldu" gösterilir. Varsayılan True'dur.
 html_show_sphinx = False
 
-# If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
+# Eğer True ise, "(C) Telif Hakkı ..." HTML altbilgisinde gösterilir. Varsayılan True'dur.
 html_show_copyright = True
