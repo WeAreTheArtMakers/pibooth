@@ -6,15 +6,12 @@ from io import open
 import os.path as osp
 from setuptools import setup, find_packages
 
-
 HERE = osp.abspath(osp.dirname(__file__))
 sys.path.insert(0, HERE)
 import pibooth  # nopep8 : import shall be done after adding setup to paths
 
-
 with open(osp.join(HERE, 'docs', 'requirements.txt')) as fd:
     docs_require = fd.read().splitlines()
-
 
 def main():
     setup(
@@ -45,6 +42,7 @@ def main():
             'Natural Language :: Portuguese',
             'Natural Language :: Portuguese (Brazilian)',
             'Natural Language :: Spanish',
+            'Natural Language :: Turkish',  # Added Turkish language support
             'Topic :: Multimedia :: Graphics :: Capture :: Digital Camera',
         ],
         author="Vincent Verdeil, Antoine Rousseaux",
@@ -74,7 +72,6 @@ def main():
             'psutil>=5.5.1',
             'pluggy>=0.13.1',
             'gpiozero>=1.5.1',
-            # RPi.GPIO backend for gpiozero (not always installed by default)
             'RPi.GPIO>=0.7.0 ; platform_machine>="armv0l" and platform_machine<="armv9l"'
         ],
         extras_require={
@@ -83,14 +80,15 @@ def main():
             'doc': docs_require
         },
         zip_safe=False,  # Don't install the lib as an .egg zipfile
-        entry_points={'console_scripts': ["pibooth = pibooth.booth:main",
-                                          "pibooth-count = pibooth.scripts.count:main",
-                                          "pibooth-diag = pibooth.scripts.diagnostic:main",
-                                          "pibooth-fonts = pibooth.scripts.fonts:main",
-                                          "pibooth-regen = pibooth.scripts.regenerate:main",
-                                          "pibooth-printcfg = pibooth.scripts.printer:main"]},
+        entry_points={'console_scripts': [
+            "pibooth = pibooth.booth:main",
+            "pibooth-count = pibooth.scripts.count:main",
+            "pibooth-diag = pibooth.scripts.diagnostic:main",
+            "pibooth-fonts = pibooth.scripts.fonts:main",
+            "pibooth-regen = pibooth.scripts.regenerate:main",
+            "pibooth-printcfg = pibooth.scripts.printer:main"
+        ]},
     )
-
 
 if __name__ == '__main__':
     main()
