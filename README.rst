@@ -4,7 +4,7 @@
 
 ``pibooth`` projesi, Raspberry Pi için saf Python'da kutudan çıktığı gibi kullanılabilen bir fotokabin uygulaması sağlar. GitHub kullanıcılarının bazı gerçekleştirmelerini keşfetmek için `wiki <https://github.com/pibooth/pibooth/wiki>`_ sayfasına göz atın ve kendi versiyonunuzun fotoğraflarını bize göndermekten çekinmeyin.
 
-.. image:: https://raw.githubusercontent.com/pibooth/pibooth/master/docs/images/background_samples.png
+.. image:: https://wearetheartmakers.com/us/images/2024/07/13/modbooth_samples.png
    :align: center
    :alt: Ayarlar
 
